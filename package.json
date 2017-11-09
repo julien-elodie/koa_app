@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/julien-elodie/koa_app#readme",
   "dependencies": {
+    "commander": "^2.11.0",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-compose": "^4.0.0",

@@ -10,7 +10,11 @@ const logger = require("./middlewares/logger");
 const handler = require("./middlewares/handler");
 const router = require("./middlewares/router");
 
+const commander = require("./lib/commander");
 const error = require("./lib/error");
+
+// commandline
+commander();
 
 // middlewares
 // official
@@ -35,4 +39,4 @@ app.on("error", error());
 
 // start server
 app.listen(3000);
-console.log("server start");
+console.log("> server start");
